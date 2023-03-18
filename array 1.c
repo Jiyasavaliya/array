@@ -1,16 +1,16 @@
 #include<stdio.h>
-int main()
-{
-	int n;
+int main(){
+	int n[5];
+	int i;
 	
-		printf("enter value: ");
-		scanf("%d",&n);
+	for(i=0; i<=4; i++){
+		printf("enter elements : ");
+		scanf("%d",&n[i]);
+		
+	}
 	
-		int i;
-		int a[n];
-		 
-			for(i=0;i<n;i++)
-		
-			scanf("%d\n",&a[n]);
-		
+	for(i=0; i<=4; i++){
+		printf("%d\n",n[i]);
+	}
 }
+
